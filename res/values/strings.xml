@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">smartLink</string>
+    <string name="hiflying_smartlinker_ssid">ssid</string>
+    <string name="hiflying_smartlinker_password">password</string>
+    <string name="hiflying_smartlinker_start">start</string>
+    <string name="hiflying_smartlinker_stop">stop</string>
+    <string name="hiflying_smartlinker_waiting">waiting</string>
+    <string name="hiflying_smartlinker_no_wifi_connectivity">connectivity</string>
+    <string name="hiflying_smartlinker_new_module_found">new module found</string>
+    <string name="hiflying_smartlinker_completed">completed</string>
+    <string name="hiflying_smartlinker_timeout">timeout</string>
+    
+    <string name="action_settings">setting</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_version" 
+            android:layout_gravity="end"
+            android:textSize="12sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SnifferSmartLinkerActivity" 
+            android:onClick="startSnifferSmartLinkerActivity"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="10sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Use SnifferSmartLinkerActivity provided by SmartLink library to setup hiflying module, less code but more easier!"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SnifferSmartLinkerFragment" 
+            android:onClick="startSnifferSmartLinkerFragment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="10sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="SnifferSmartLinkerFragment has the same functionality with SnifferSmartLinkerActivity, but it's a fragment and must be used in a activity."/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Customized Activity" 
+            android:onClick="startCustomizedActivity"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="10sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Create your activity and use SmartLink library to setup hiflying module."/>
+    </LinearLayout>
+
+</ScrollView>
